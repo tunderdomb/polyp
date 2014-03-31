@@ -103,6 +103,4 @@ window.Date = (function(NativeDate) {
 	};
 
 	return Date;
-})(Date);
-
-/* End of file dateparse.js */
+})(Date)

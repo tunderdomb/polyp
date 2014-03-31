@@ -19,6 +19,4 @@ Object.keys = (function() {
 		return ret;
 	};
 
-}());
-
-/* End of file keys.js */
+}())

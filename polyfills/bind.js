@@ -1,7 +1,6 @@
 /**
  * Function.prototype.bind Polyfill
  */
-
 Function.prototype.bind = (function() {
 	
 	var slice = Array.prototype.slice;
@@ -27,6 +26,4 @@ Function.prototype.bind = (function() {
 
 	};
 
-}());
-
-/* End of file bind.js */
+}())

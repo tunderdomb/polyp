@@ -117,6 +117,4 @@
 	
 	fix.init();
 	
-}());
-
-/* End of file hashchange.js */
+}())

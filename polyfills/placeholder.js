@@ -307,6 +307,4 @@
 		addEventSimple(window, 'load', start);
 	}
 	
-}());
-
-/* End of file placeholder.js */
+}())

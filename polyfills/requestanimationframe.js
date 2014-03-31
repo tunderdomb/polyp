@@ -27,6 +27,4 @@
 		window.cancelAnimationFrame = function(id) {
 			window.clearTimeout(id);
 		};
-}());
-
-/* End of file requestanimationframe.js */
+}())

@@ -33,7 +33,7 @@ if (!Function.prototype.bind) {
     fBound.prototype = new FNOP();
 
     return fBound;
-  };
+  }
 }
 
 /*
@@ -166,7 +166,7 @@ if (!Function.prototype.bind) {
       };
     }
   }
-}());
+}())
 
 // Begin dataset code
 

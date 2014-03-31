@@ -25,6 +25,4 @@ Date.prototype.toISOString = function toISOString() {
 	// pad milliseconds to have three digits.
 	return result.slice(0, 3).join('-') + 'T' + result.slice(3).join(':') + '.' +
 		('000' + this.getUTCMilliseconds()).slice(-3) + 'Z';
-};
-
-/* End of file toisostring.js */
+}

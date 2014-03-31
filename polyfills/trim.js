@@ -10,6 +10,4 @@ String.prototype.trim = (function() {
 		return this.replace(trimRegex, '');
 	};
 
-}());
-
-/* End of file trim.js */
+}())

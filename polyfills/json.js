@@ -6,10 +6,8 @@
  * @link  http://www.JSON.org/js.html
  */
 
-if (! window.JSON) {
-
-	window.JSON = { };
-	
+if (!window.JSON) {
+	window.JSON = { }
 	(function () {
 		"use strict";
 
@@ -539,8 +537,5 @@ if (! window.JSON) {
 				};
 			}());
 		}
-	}());
-	
+	}())
 }
-
-/* End of file json.js */

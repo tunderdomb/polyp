@@ -29,6 +29,4 @@
 		return new window.ActiveXObject(correctAXO);
 	};
 	
-}());
-
-/* End of file xhr.js */
+}())

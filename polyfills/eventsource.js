@@ -180,6 +180,4 @@
 
 	window.EventSource = EventSource;
  
-}());
-
-/* End of file eventsource.js */
+}())

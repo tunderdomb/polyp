@@ -8,6 +8,4 @@ Object.getPrototypeOf = function(obj) {
 		proto = (obj.constructor ? obj.constructor.prototype : Object.prototype);
 	}
 	return proto;
-};
-
-/* End of file getprototypeof.js */
+}
