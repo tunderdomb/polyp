@@ -6,6 +6,7 @@ var fs = require("fs")
 var argv = require('minimist')(process.argv.slice(2))
 var inquirer = require("inquirer")
 var chalk = require("chalk")
+var async = require("async")
 var task = argv._[0]
 
 var cwd = process.cwd()
@@ -14,7 +15,7 @@ var polyp = require("../lib/polyp")
 
 switch( task ){
   case "tests":
-    polyp.testOut()
+    polyp.generateTests()
     break
   // UPDATE
   case "update":
@@ -28,10 +29,25 @@ switch( task ){
   case "autoupdate":
     break
 
+  // CRAWL
+  case "crawl":
+    if( !argv.f ) throw new Error("Missing argument -f (path)")
+    var out = argv.out || "./"
+    polyp.crawl([argv.f], {
+      dir: out
+    }, function( err, polyfills, featuretests ){
+      for( var src in polyfills ){
+        fs.writeFileSync(src, polyfills[src])
+      }
+      // write the polyp script
+      fs.writeFileSync(path.join(out, "polyp.js"), featuretests)
+    })
+    break
+
   // FEATURES
   case "features":
     console.log(chalk.green("Features:"))
-    polyp.features(function( features ){
+    polyp.getFeatures(function( features ){
       var name, title, descr
       for( name in features ){
         title = chalk.blue(features[name].title)
@@ -43,7 +59,7 @@ switch( task ){
     break
   case "assemble":
     if( !argv.f ) throw new Error("Missing argument -f (path)")
-    polyp.polyfills(function( fills ){
+    polyp.getPolyfills(function( fills ){
       var obj = {}
       fills = fills.map(function( src ){
         var name = path.basename(src, path.extname(src))
@@ -59,7 +75,7 @@ switch( task ){
         fills = answer.polyfills.map(function( name ){
           return obj[name]
         })
-        polyp.assemble(fills, function( file ){
+        polyp.assemble(fills, function( file, polyfill, loader ){
           fs.writeFile(argv.f, file, function( err ){
             if( err ) console.warn(err)
             else console.log("Created polyfill '%s'", argv.f)

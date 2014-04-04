@@ -6,7 +6,7 @@ module.exports = function ( grunt ){
   grunt.registerMultiTask("polyp", "", function (){
     var options = this.options({
       browsers: [],
-      features: [],
+      getFeatures: [],
       supported: 90,
       partiallySupported: 60,
       notSupported: 40
