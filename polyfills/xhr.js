@@ -2,7 +2,7 @@
  * XMLHttpRequest Polyfill For IE
  */
 
-(function() {
+if( !window.XMLHttpRequest ) (function() {
 	
 	var AXOs = ['MSXML2.XMLHTTP.6.0', 'MSXML3.XMLHTTP', 'Microsoft.XMLHTTP', 'MSXML2.XMLHTTP.3.0'];
 	var correctAXO = null;

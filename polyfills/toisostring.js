@@ -4,7 +4,7 @@
  * This function taken with minor changes from https://github.com/kriskowal/es5-shim
  */
 
-Date.prototype.toISOString = function toISOString() {
+if( !Date.prototype.toISOString ) Date.prototype.toISOString = function toISOString() {
 	var result, length, value;
 	if (! isFinite(this)) {
 		throw new RangeError();

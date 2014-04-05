@@ -2,7 +2,7 @@
  * Object.keys Polyfill
  */
 
-Object.keys = (function() {
+if( !Object.keys ) Object.keys = (function() {
 
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
 

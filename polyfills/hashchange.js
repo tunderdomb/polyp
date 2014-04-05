@@ -2,7 +2,7 @@
  * Hashchange Event Polyfill
  */
 
-(function() {
+if( !window.HashChangeEvent ) (function() {
 
 	window.HashChangeEvent = (function() {
 		var ret = function(oldURL, newURL) {

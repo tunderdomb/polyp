@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0b7876-fd18-438a-9893-9eb81721020f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polyfills/Date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Node_js_Dependencies_for_polyp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polyfills/Object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TODO.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polyfills/addEventListener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/detectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/grunt-polyp.js" afterPath="$PROJECT_DIR$/tasks/grunt-polyp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/assembled/hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/polyp.js" />
+      <change type="DELETED" beforePath="D:\projects\node\polyp\lib\tests.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.md" afterPath="$PROJECT_DIR$/TODO.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/bind.js" afterPath="$PROJECT_DIR$/polyfills/bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/browser.js" afterPath="$PROJECT_DIR$/lib/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/console.js" afterPath="$PROJECT_DIR$/polyfills/console.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/dataset.js" afterPath="$PROJECT_DIR$/polyfills/dataset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/detectors.js" afterPath="$PROJECT_DIR$/lib/detectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/eventsource.js" afterPath="$PROJECT_DIR$/polyfills/eventsource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/getprototypeof.js" afterPath="$PROJECT_DIR$/polyfills/getprototypeof.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/hashchange.js" afterPath="$PROJECT_DIR$/polyfills/hashchange.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/polyp.iml" afterPath="$PROJECT_DIR$/.idea/polyp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/keys.js" afterPath="$PROJECT_DIR$/polyfills/keys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/now.js" afterPath="$PROJECT_DIR$/polyfills/now.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/polyp.js" afterPath="$PROJECT_DIR$/bin/polyp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/polyp.js" afterPath="$PROJECT_DIR$/lib/polyp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/toisostring.js" afterPath="$PROJECT_DIR$/polyfills/toisostring.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/trim.js" afterPath="$PROJECT_DIR$/polyfills/trim.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\pets\node\polyp\polyfills\array.generics.min.js" afterPath="$PROJECT_DIR$/polyfills/Array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polyfills/xhr.js" afterPath="$PROJECT_DIR$/polyfills/xhr.js" />
     </list>
     <ignored path="polyp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,29 +49,103 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="polyp.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="polyp.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/polyp.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="156" column="0" selection-start="3986" selection-end="3986" vertical-scroll-proportion="-0.88229054" vertical-offset="2496" max-vertical-offset="4384">
+                <state line="88" column="73" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.8894646" vertical-offset="893" max-vertical-offset="2224">
                   <folding>
-                    <element signature="e#2042#2111#0" expanded="true" />
-                    <element signature="e#2151#2232#0" expanded="true" />
-                    <element signature="e#2318#2748#0" expanded="true" />
-                    <element signature="e#2361#2745#0" expanded="true" />
-                    <element signature="e#3256#3294#0" expanded="true" />
-                    <element signature="e#4026#4264#0" expanded="true" />
-                    <element signature="e#4308#4448#0" expanded="true" />
-                    <element signature="e#10144#10488#0" expanded="true" />
-                    <element signature="e#10531#10750#0" expanded="true" />
+                    <element signature="e#283#360#0" expanded="true" />
+                    <element signature="e#386#492#0" expanded="true" />
+                    <element signature="e#519#623#0" expanded="true" />
+                    <element signature="e#647#742#0" expanded="true" />
+                    <element signature="e#781#850#0" expanded="true" />
+                    <element signature="e#819#847#0" expanded="true" />
+                    <element signature="e#890#1007#0" expanded="true" />
+                    <element signature="e#983#1004#0" expanded="true" />
+                    <element signature="e#1047#1592#0" expanded="true" />
+                    <element signature="e#1663#1976#0" expanded="true" />
+                    <element signature="e#1838#1884#0" expanded="true" />
+                    <element signature="e#1932#1957#0" expanded="true" />
+                    <element signature="e#2011#2172#0" expanded="true" />
+                    <element signature="e#2048#2157#0" expanded="true" />
+                    <element signature="e#2174#2534#0" expanded="true" />
+                    <element signature="e#2673#2703#0" expanded="true" />
+                    <element signature="e#2764#2801#0" expanded="true" />
+                    <element signature="e#3075#3616#0" expanded="true" />
+                    <element signature="e#3664#4368#0" expanded="true" />
+                    <element signature="e#3755#4138#0" expanded="true" />
+                    <element signature="e#3811#4133#0" expanded="true" />
+                    <element signature="e#3918#4113#0" expanded="true" />
+                    <element signature="e#4156#4365#0" expanded="true" />
+                    <element signature="e#4295#4354#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="detectors.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/detectors.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1552">
+                  <folding>
+                    <element signature="e#160#190#0" expanded="true" />
+                    <element signature="e#241#290#0" expanded="true" />
+                    <element signature="e#1176#1216#0" expanded="true" />
+                    <element signature="e#1276#1323#0" expanded="true" />
+                    <element signature="e#1562#1592#0" expanded="true" />
+                    <element signature="e#1702#1729#0" expanded="true" />
+                    <element signature="e#1798#1833#0" expanded="true" />
+                    <element signature="e#1949#1979#0" expanded="true" />
+                    <element signature="e#2056#2096#0" expanded="true" />
+                    <element signature="e#2260#2307#0" expanded="true" />
+                    <element signature="e#2405#2450#0" expanded="true" />
+                    <element signature="e#2554#2598#0" expanded="true" />
+                    <element signature="e#2713#2774#0" expanded="true" />
+                    <element signature="e#2870#2916#0" expanded="true" />
+                    <element signature="e#2999#3042#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="polyp.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/polyp.js">
+            <entry file="file://$PROJECT_DIR$/bin/polyp.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2048">
+                <state line="21" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="960">
+                  <folding>
+                    <element signature="e#811#1463#0" expanded="true" />
+                    <element signature="e#871#981#0" expanded="true" />
+                    <element signature="e#1150#1456#0" expanded="true" />
+                    <element signature="e#1205#1243#0" expanded="true" />
+                    <element signature="e#1337#1446#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="browser.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/browser.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+                  <folding>
+                    <element signature="e#27#43#0" expanded="true" />
+                    <element signature="e#578#854#0" expanded="true" />
+                    <element signature="e#745#850#0" expanded="true" />
+                    <element signature="e#858#917#0" expanded="true" />
+                    <element signature="e#940#1037#0" expanded="true" />
+                    <element signature="e#1061#1119#0" expanded="true" />
+                    <element signature="e#1180#1287#0" expanded="true" />
+                    <element signature="e#1369#1421#0" expanded="true" />
+                    <element signature="e#1470#1610#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="224">
                   <folding />
                 </state>
               </provider>
@@ -73,43 +154,7 @@
           <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/test.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="21" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="256">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detectors.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/detectors.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="75" column="38" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1536">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="polyp.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bin/polyp.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="14" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1712">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="browser.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/browser.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1280">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/test.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="320">
+                <state line="3" column="21" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="256">
                   <folding />
                 </state>
               </provider>
@@ -119,12 +164,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="support.json" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="support.json" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/support.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17842" column="81" selection-start="378509" selection-end="378509" vertical-scroll-proportion="0.23425414" vertical-offset="285260" max-vertical-offset="470416">
+                <state line="17842" column="81" selection-start="378509" selection-end="378509" vertical-scroll-proportion="-8.48" vertical-offset="285260" max-vertical-offset="470416">
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NOTES.md" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/NOTES.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="MarkdownPreviewEditor">
+                <state />
               </provider>
             </entry>
           </file>
@@ -155,45 +212,46 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tasks/grunt-polyp.js" />
         <option value="$PROJECT_DIR$/lib/tests.js" />
-        <option value="$PROJECT_DIR$/polyfills/bind.js" />
         <option value="$PROJECT_DIR$/polyfills/classlist.js" />
-        <option value="$PROJECT_DIR$/polyfills/console.js" />
         <option value="$PROJECT_DIR$/polyfills/dateparse.js" />
-        <option value="$PROJECT_DIR$/polyfills/eventsource.js" />
-        <option value="$PROJECT_DIR$/polyfills/getprototypeof.js" />
-        <option value="$PROJECT_DIR$/polyfills/hashchange.js" />
         <option value="$PROJECT_DIR$/polyfills/json.js" />
-        <option value="$PROJECT_DIR$/polyfills/keys.js" />
-        <option value="$PROJECT_DIR$/polyfills/now.js" />
         <option value="$PROJECT_DIR$/polyfills/placeholder.js" />
         <option value="$PROJECT_DIR$/polyfills/requestanimationframe.js" />
         <option value="$PROJECT_DIR$/polyfills/storage.js" />
-        <option value="$PROJECT_DIR$/polyfills/toisostring.js" />
-        <option value="$PROJECT_DIR$/polyfills/trim.js" />
-        <option value="$PROJECT_DIR$/polyfills/xhr.js" />
         <option value="$PROJECT_DIR$/test/p.js" />
-        <option value="$PROJECT_DIR$/polyfills/dataset.js" />
         <option value="$PROJECT_DIR$/polyfills/test/test.js" />
         <option value="$PROJECT_DIR$/lib/usages.js" />
         <option value="$PROJECT_DIR$/test/browser.js" />
         <option value="$APPLICATION_PLUGINS_DIR$/scratches/asd.js" />
         <option value="$APPLICATION_PLUGINS_DIR$/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/lib/browser.js" />
         <option value="$PROJECT_DIR$/polyfills/addEventListener.js" />
         <option value="$PROJECT_DIR$/polyfills/Date.js" />
         <option value="$PROJECT_DIR$/polyfills/Object.js" />
-        <option value="$PROJECT_DIR$/TODO.md" />
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/test/test.html" />
         <option value="$PROJECT_DIR$/lib/detectors.js" />
+        <option value="$PROJECT_DIR$/polyfills/dataset.js" />
+        <option value="$PROJECT_DIR$/polyfills/hashchange.js" />
+        <option value="$PROJECT_DIR$/polyfills/keys.js" />
+        <option value="$PROJECT_DIR$/polyfills/now.js" />
+        <option value="$PROJECT_DIR$/polyfills/bind.js" />
+        <option value="$PROJECT_DIR$/polyfills/console.js" />
+        <option value="$PROJECT_DIR$/polyfills/eventsource.js" />
+        <option value="$PROJECT_DIR$/polyfills/getprototypeof.js" />
+        <option value="$PROJECT_DIR$/polyfills/toisostring.js" />
+        <option value="$PROJECT_DIR$/polyfills/trim.js" />
+        <option value="$PROJECT_DIR$/polyfills/xhr.js" />
+        <option value="$PROJECT_DIR$/TODO.md" />
+        <option value="$PROJECT_DIR$/NOTES.md" />
         <option value="$PROJECT_DIR$/bin/polyp.js" />
+        <option value="$PROJECT_DIR$/lib/browser.js" />
         <option value="$PROJECT_DIR$/lib/polyp.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
@@ -224,7 +282,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,7 +324,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assembled" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="polyfills" />
+              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,12 +376,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -338,7 +400,7 @@
       <recent name="D:\pets\node\polyp\polyfills" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.polyp">
+  <component name="RunManager" selected="Node.js.polyp crawl -f test.js">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -356,7 +418,7 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="false" name="polyp" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/polyp/bin/polyp.js" application-parameters="crawl -f test.js" working-dir="$PROJECT_DIR$/test">
+    <configuration default="false" name="polyp crawl -f test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/polyp/bin/polyp.js" application-parameters="crawl -f test.js" working-dir="$PROJECT_DIR$/test">
       <browser start="false" url="" with-js-debugger="false" />
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
@@ -364,8 +426,15 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.polyp" />
+    <configuration default="false" name="polyp assemble -f test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/polyp/bin/polyp.js" application-parameters="assemble -f test.js" working-dir="$PROJECT_DIR$/test">
+      <browser start="false" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.polyp crawl -f test.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.polyp assemble -f test.js" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -395,8 +464,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26006192" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -404,16 +473,16 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17092651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36297828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17252396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3622291" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -434,17 +503,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17842" column="81" selection-start="378509" selection-end="378509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="470416">
@@ -469,124 +531,9 @@
         <state line="3" column="1" selection-start="22" selection-end="22" vertical-scroll-proportion="0.068085104" vertical-offset="0" max-vertical-offset="705" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="391" selection-end="391" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="680" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/async/lib/async.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="13" selection-start="80" selection-end="80" vertical-scroll-proportion="-0.60678923" vertical-offset="445" max-vertical-offset="2976" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="630" selection-end="630" vertical-scroll-proportion="0.31683168" vertical-offset="0" max-vertical-offset="707">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/bind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="128" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/JSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="539" column="6" selection-start="12708" selection-end="12708" vertical-scroll-proportion="0.22630835" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/now.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="76" selection-end="76" vertical-scroll-proportion="0.09052334" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/querySelectorAll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="281" column="29" selection-start="6292" selection-end="6292" vertical-scroll-proportion="0.32276657" vertical-offset="4272" max-vertical-offset="23088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/placeholder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="0" selection-start="8104" selection-end="8104" vertical-scroll-proportion="0.11315417" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/requestanimationframe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="976" selection-end="976" vertical-scroll-proportion="0.13578501" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="1" selection-start="4917" selection-end="4917" vertical-scroll-proportion="5.1873198" vertical-offset="0" max-vertical-offset="3712">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#114#189#0" expanded="false" />
-            <element signature="e#252#300#0" expanded="false" />
-            <element signature="e#334#505#0" expanded="false" />
-            <element signature="e#513#561#0" expanded="false" />
-            <element signature="e#592#732#0" expanded="false" />
-            <element signature="e#740#781#0" expanded="false" />
-            <element signature="e#825#1044#0" expanded="false" />
-            <element signature="e#950#1008#0" expanded="false" />
-            <element signature="e#1049#1091#0" expanded="false" />
-            <element signature="e#1135#1360#0" expanded="false" />
-            <element signature="e#1219#1291#0" expanded="false" />
-            <element signature="e#1503#2210#0" expanded="false" />
-            <element signature="e#1609#1674#0" expanded="false" />
-            <element signature="e#1712#1768#0" expanded="false" />
-            <element signature="e#1802#1955#0" expanded="false" />
-            <element signature="e#1996#2077#0" expanded="false" />
-            <element signature="e#2122#2204#0" expanded="false" />
-            <element signature="e#2364#2408#0" expanded="false" />
-            <element signature="e#2536#2579#0" expanded="false" />
-            <element signature="e#2609#2750#0" expanded="false" />
-            <element signature="e#2779#2813#0" expanded="false" />
-            <element signature="e#2823#2867#0" expanded="false" />
-            <element signature="e#2980#3353#0" expanded="false" />
-            <element signature="e#3006#3346#0" expanded="false" />
-            <element signature="e#3411#3497#0" expanded="false" />
-            <element signature="e#3548#3604#0" expanded="false" />
-            <element signature="e#3654#3729#0" expanded="false" />
-            <element signature="e#3740#3777#0" expanded="false" />
-            <element signature="e#3833#4250#0" expanded="false" />
-            <element signature="e#4306#4598#0" expanded="false" />
-            <element signature="e#4636#4734#0" expanded="false" />
-            <element signature="e#4764#4840#0" expanded="false" />
-            <element signature="e#4869#4908#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/trim.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="184" selection-end="184" vertical-scroll-proportion="0.09052334" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/hashchange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="4" selection-start="2712" selection-end="2712" vertical-scroll-proportion="0.09052334" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/classList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1728" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.06916427" vertical-offset="0" max-vertical-offset="694">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/dataset.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="3" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.09221902" vertical-offset="0" max-vertical-offset="912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/eventsource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="20" selection-start="4769" selection-end="4769" vertical-scroll-proportion="0.7241867" vertical-offset="0" max-vertical-offset="736" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.npmignore">
@@ -609,25 +556,12 @@
         <state line="1" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.02882883" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/Array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="20" selection-start="33" selection-end="33" vertical-scroll-proportion="0.09056604" vertical-offset="0" max-vertical-offset="530" />
       </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/scratches/default.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/grunt-polyp.js">
@@ -640,99 +574,242 @@
         <state line="10" column="39" selection-start="169" selection-end="169" vertical-scroll-proportion="0.2882883" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/getPrototypeOf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/keys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="362" selection-end="362" vertical-scroll-proportion="0.051282052" vertical-offset="0" max-vertical-offset="624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/xhr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="4" selection-start="701" selection-end="701" vertical-scroll-proportion="0.051282052" vertical-offset="0" max-vertical-offset="624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/toISOString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="857" selection-end="857" vertical-scroll-proportion="0.051282052" vertical-offset="0" max-vertical-offset="624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/Date.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="38" selection-end="38" vertical-scroll-proportion="0.051282052" vertical-offset="0" max-vertical-offset="624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/Object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="59" selection-end="59" vertical-scroll-proportion="0.051282052" vertical-offset="0" max-vertical-offset="624" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/uglify-js/tools/node.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="12" selection-start="1516" selection-end="1526" vertical-scroll-proportion="0.20512821" vertical-offset="544" max-vertical-offset="2240" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/retrofitters.js">
+    <entry file="file://$PROJECT_DIR$/support.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542" />
+        <state line="17842" column="81" selection-start="378509" selection-end="378509" vertical-scroll-proportion="-8.48" vertical-offset="285260" max-vertical-offset="470416">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/troglodyte.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/source-map/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542" />
+        <state line="144" column="11" selection-start="3978" selection-end="3978" vertical-scroll-proportion="0.33277026" vertical-offset="267" max-vertical-offset="1488">
+          <folding>
+            <element signature="e#3997#4809#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polyfills/base64.js">
+    <entry file="file://$PROJECT_DIR$/polyfills/json.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="547" selection-end="547" vertical-scroll-proportion="0.497545" vertical-offset="0" max-vertical-offset="611" />
+        <state line="541" column="0" selection-start="12710" selection-end="12710" vertical-scroll-proportion="0.1536" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polyfills/addEventListener.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="291" selection-end="291" vertical-scroll-proportion="0.20512821" vertical-offset="0" max-vertical-offset="624" />
+        <state line="8" column="24" selection-start="291" selection-end="291" vertical-scroll-proportion="0.1536" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/base64.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="547" selection-end="547" vertical-scroll-proportion="0.026143791" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="5" selection-start="49" selection-end="49" vertical-scroll-proportion="0.026143791" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/classlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1728" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.078431375" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="34" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0256" vertical-offset="0" max-vertical-offset="625">
+          <folding>
+            <element signature="e#177#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/Date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/dataset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0256" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polyfills/dateparse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="51" selection-start="3060" selection-end="3060" vertical-scroll-proportion="0.4871795" vertical-offset="1056" max-vertical-offset="1728">
+        <state line="89" column="51" selection-start="3060" selection-end="3060" vertical-scroll-proportion="0.9488" vertical-offset="431" max-vertical-offset="1392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/eventsource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="656">
           <folding>
-            <element signature="e#224#1013#0" expanded="false" />
+            <element signature="e#171#4878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/getprototypeof.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/hashchange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/keys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/now.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/Object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/placeholder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="310" column="0" selection-start="8104" selection-end="8104" vertical-scroll-proportion="0.0768" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/queryselectorall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="281" column="29" selection-start="6292" selection-end="6292" vertical-scroll-proportion="0.33006537" vertical-offset="1046" max-vertical-offset="5664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/requestanimationframe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="4" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="76" selection-end="76" vertical-scroll-proportion="0.1024" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/toisostring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/trim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0512" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyfills/xhr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="72" selection-end="72" vertical-scroll-proportion="0.052287582" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <element signature="e#84#727#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="66" selection-end="66" vertical-scroll-proportion="0.026666667" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599" />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tests.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="328" column="18" selection-start="13299" selection-end="13299" vertical-scroll-proportion="0.02618658" vertical-offset="5232" max-vertical-offset="10480">
+        <state line="17" column="24" selection-start="391" selection-end="391" vertical-scroll-proportion="0.4084084" vertical-offset="0" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support.json">
+    <entry file="file://$USER_HOME$/.WebIde70/system/extLibs/nodejs-v0.10.19-src/core-modules-sources/lib/path.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17842" column="81" selection-start="378509" selection-end="378509" vertical-scroll-proportion="0.23425414" vertical-offset="285260" max-vertical-offset="470416">
+        <state line="303" column="10" selection-start="9777" selection-end="9777" vertical-scroll-proportion="0.33333334" vertical-offset="750" max-vertical-offset="2112">
+          <folding>
+            <element signature="e#9798#10696#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/polyfills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="24828" selection-end="24828" vertical-scroll-proportion="0.54901963" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/browser.js">
+    <entry file="file://$PROJECT_DIR$/test/assembled/hello.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="1280">
+        <state line="5" column="36" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.1179941" vertical-offset="0" max-vertical-offset="678">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NOTES.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.js">
@@ -742,47 +819,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/polyp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="256">
+        <state line="3" column="21" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="256">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/detectors.js">
+    <entry file="file://$PROJECT_DIR$/lib/browser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="38" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.0" vertical-offset="678" max-vertical-offset="1344">
+        <state line="17" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding>
+            <element signature="e#27#43#0" expanded="true" />
+            <element signature="e#578#854#0" expanded="true" />
+            <element signature="e#745#850#0" expanded="true" />
+            <element signature="e#858#917#0" expanded="true" />
+            <element signature="e#940#1037#0" expanded="true" />
+            <element signature="e#1061#1119#0" expanded="true" />
+            <element signature="e#1180#1287#0" expanded="true" />
+            <element signature="e#1369#1421#0" expanded="true" />
+            <element signature="e#1470#1610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/polyp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="65" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/polyp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="14" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1184">
-          <folding />
+        <state line="21" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="960">
+          <folding>
+            <element signature="e#811#1463#0" expanded="true" />
+            <element signature="e#871#981#0" expanded="true" />
+            <element signature="e#1150#1456#0" expanded="true" />
+            <element signature="e#1205#1243#0" expanded="true" />
+            <element signature="e#1337#1446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/detectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1552">
+          <folding>
+            <element signature="e#160#190#0" expanded="true" />
+            <element signature="e#241#290#0" expanded="true" />
+            <element signature="e#1176#1216#0" expanded="true" />
+            <element signature="e#1276#1323#0" expanded="true" />
+            <element signature="e#1562#1592#0" expanded="true" />
+            <element signature="e#1702#1729#0" expanded="true" />
+            <element signature="e#1798#1833#0" expanded="true" />
+            <element signature="e#1949#1979#0" expanded="true" />
+            <element signature="e#2056#2096#0" expanded="true" />
+            <element signature="e#2260#2307#0" expanded="true" />
+            <element signature="e#2405#2450#0" expanded="true" />
+            <element signature="e#2554#2598#0" expanded="true" />
+            <element signature="e#2713#2774#0" expanded="true" />
+            <element signature="e#2870#2916#0" expanded="true" />
+            <element signature="e#2999#3042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/polyp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="0" selection-start="3986" selection-end="3986" vertical-scroll-proportion="-0.88229054" vertical-offset="2496" max-vertical-offset="4384">
+        <state line="88" column="73" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.8894646" vertical-offset="893" max-vertical-offset="2224">
           <folding>
-            <element signature="e#2042#2111#0" expanded="true" />
-            <element signature="e#2151#2232#0" expanded="true" />
-            <element signature="e#2318#2748#0" expanded="true" />
-            <element signature="e#2361#2745#0" expanded="true" />
-            <element signature="e#3256#3294#0" expanded="true" />
-            <element signature="e#4026#4264#0" expanded="true" />
-            <element signature="e#4308#4448#0" expanded="true" />
-            <element signature="e#10144#10488#0" expanded="true" />
-            <element signature="e#10531#10750#0" expanded="true" />
+            <element signature="e#283#360#0" expanded="true" />
+            <element signature="e#386#492#0" expanded="true" />
+            <element signature="e#519#623#0" expanded="true" />
+            <element signature="e#647#742#0" expanded="true" />
+            <element signature="e#781#850#0" expanded="true" />
+            <element signature="e#819#847#0" expanded="true" />
+            <element signature="e#890#1007#0" expanded="true" />
+            <element signature="e#983#1004#0" expanded="true" />
+            <element signature="e#1047#1592#0" expanded="true" />
+            <element signature="e#1663#1976#0" expanded="true" />
+            <element signature="e#1838#1884#0" expanded="true" />
+            <element signature="e#1932#1957#0" expanded="true" />
+            <element signature="e#2011#2172#0" expanded="true" />
+            <element signature="e#2048#2157#0" expanded="true" />
+            <element signature="e#2174#2534#0" expanded="true" />
+            <element signature="e#2673#2703#0" expanded="true" />
+            <element signature="e#2764#2801#0" expanded="true" />
+            <element signature="e#3075#3616#0" expanded="true" />
+            <element signature="e#3664#4368#0" expanded="true" />
+            <element signature="e#3755#4138#0" expanded="true" />
+            <element signature="e#3811#4133#0" expanded="true" />
+            <element signature="e#3918#4113#0" expanded="true" />
+            <element signature="e#4156#4365#0" expanded="true" />
+            <element signature="e#4295#4354#0" expanded="true" />
           </folding>
         </state>
       </provider>

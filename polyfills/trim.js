@@ -2,7 +2,7 @@
  * String.prototype.trim Polyfill
  */
 
-String.prototype.trim = (function() {
+if( !String.prototype.trim ) String.prototype.trim = (function() {
 
 	var trimRegex = /(^\s+|\s+$)/g;
 

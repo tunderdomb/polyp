@@ -5,7 +5,7 @@
  * @link  https://github.com/remy/polyfills
  */
 
-(function () {
+if( !window.EventSource ) window.EventSource = (function () {
 
 	var reTrim = /^(\s|\u00A0)+|(\s|\u00A0)+$/g;
 
@@ -178,6 +178,6 @@
 		origin: ''
 	};
 
-	window.EventSource = EventSource;
+	return EventSource;
  
 }())

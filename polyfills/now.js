@@ -2,6 +2,6 @@
  * Date.now Polyfill
  */
 
-Date.now = function() {
+if( !Date.now ) Date.now = function() {
 	return +new Date();
 }

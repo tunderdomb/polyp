@@ -1,7 +1,7 @@
 /**
  * Function.prototype.bind Polyfill
  */
-Function.prototype.bind = (function() {
+if( !Function.prototype.bind ) Function.prototype.bind = (function() {
 	
 	var slice = Array.prototype.slice;
 	
